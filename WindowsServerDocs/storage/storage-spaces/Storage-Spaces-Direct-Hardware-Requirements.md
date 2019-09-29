@@ -33,7 +33,7 @@ ms.locfileid: "71402940"
 
 ![SDDC が表示されている Windows Server カタログのスクリーンショット](media/hardware-requirements/sddc-aqs.png)
 
-完全に構成されたクラスター (サーバー、ネットワーク、および記憶域) は、フェールオーバークラスターマネージャーのウィザードに従って、または PowerShell の @no__t[コマンドレット](https://docs.microsoft.com/powershell/module/failoverclusters/test-cluster?view=win10-ps)を使用して、すべての[クラスター検証テスト](https://technet.microsoft.com/library/cc732035(v=ws.10).aspx)に合格する必要があります。
+完全に構成されたクラスター (サーバー、ネットワーク、および記憶域) は、フェールオーバークラスターマネージャーのウィザードに従って、または PowerShell の`Test-Cluster`[コマンドレット](https://docs.microsoft.com/powershell/module/failoverclusters/test-cluster?view=win10-ps)を使用して、すべての[クラスター検証テスト](https://technet.microsoft.com/library/cc732035(v=ws.10).aspx)に合格する必要があります。
 
 また、次の要件が適用されます。
 

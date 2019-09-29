@@ -25,7 +25,7 @@ ms.locfileid: "71402940"
 運用環境では、Microsoft のパートナーから検証済みのハードウェア/ソフトウェアソリューションを購入することをお勧めします。これには、展開ツールと手順が含まれます。 これらのソリューションは、互換性と信頼性を確保するために、参照アーキテクチャに対して設計、組み立て、検証を行い、迅速に稼働させることができます。 Windows Server 2019 ソリューションについては、 [AZURE STACK HCI solutions の web サイト](https://azure.microsoft.com/overview/azure-stack/hci)を参照してください。 Windows Server 2016 ソリューションの詳細については、「 [Windows Server Software Defined](https://microsoft.com/wssd)」を参照してください。
 
    > [!TIP]
-   > 記憶域スペースダイレクト評価するが、ハードウェアがない場合は、 「[ゲスト仮想マシンクラスターでの記憶域スペースダイレクトの使用](storage-spaces-direct-in-vm.md)」の説明に従って、hyper-v または Azure の仮想マシンを使用します。
+   > 記憶域スペースダイレクトを評価したいがハードウェアがない場合、 「[ゲスト仮想マシンクラスターでの記憶域スペースダイレクトの使用](storage-spaces-direct-in-vm.md)」の説明に従って、hyper-v または Azure の仮想マシンを使用します。
 
 ## <a name="base-requirements"></a>基本要件
 

@@ -54,7 +54,7 @@ ms.locfileid: "71402940"
 
 ## <a name="boot"></a>Boot
 
-- Windows Server でサポートされているすべてのブートデバイスで、 [SATADOM が含まれるようになりました](https://cloudblogs.microsoft.com/windowsserver/2017/08/30/announcing-support-for-satadom-boot-drives-in-windows-server-2016/)。
+- Windows Server でサポートされているすべてのブートデバイス、[SATADOM を含みます](https://cloudblogs.microsoft.com/windowsserver/2017/08/30/announcing-support-for-satadom-boot-drives-in-windows-server-2016/)、。
 - RAID 1 ミラーは必要**ありません**が、ブートではサポートされています。
 - 推奨:200 GB の最小サイズ
 
@@ -92,10 +92,10 @@ Small scale 2-3 ノードの最小相互接続
 
 ドライブを記憶域スペースダイレクトに接続する方法を次に示します。
 
-- 直接接続 SATA ドライブ
+- 直接接続されている SATA ドライブ
 - 直接接続されている NVMe ドライブ
-- Sas ドライブを使用する SAS ホストバスアダプター (HBA)
-- SATA ドライブを搭載した SAS ホストバスアダプター (HBA)
+- SAS ドライブと SAS ホストバスアダプター (HBA)
+- SATA ドライブと SAS ホストバスアダプター (HBA)
 - **サポートされていない:** RAID コントローラーカードまたは SAN (ファイバーチャネル、iSCSI、FCoE) ストレージ。 ホストバスアダプター (HBA) カードは、単純なパススルーモードを実装する必要があります。
 
 ![サポートされているドライブの相互接続の図](media/hardware-requirements/drive-interconnect-support-1.png)
@@ -115,7 +115,7 @@ Small scale 2-3 ノードの最小相互接続
 
 | 存在するドライブの種類   | 必要な最小数 |
 |-----------------------|-------------------------|
-| すべての永続メモリ (同じモデル) | 4永続メモリ |
+| すべて永続メモリ (同じモデル) | 4永続メモリ |
 | すべて NVMe (同じモデル) | 4 つの NVMe                  |
 | すべて SSD (同じモデル)  | 4 つの SSD                   |
 | 永続メモリ + NVMe または SSD | 2永続メモリ + 4 NVMe または SSD |
